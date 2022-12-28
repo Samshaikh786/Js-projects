@@ -1,0 +1,33 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
+.container{
+    
+}
+.text-center{
+    
+    text-align: center;
+}
+.mx-auto{
+    text-align: center
+;
+}
+.button{
+    font-size: large;
+    color: brown;
+    padding: 20px;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    justify-content: space-around;
+}
+.input{
+    font-size: medium;
+    padding: 8px 30px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    
+}
