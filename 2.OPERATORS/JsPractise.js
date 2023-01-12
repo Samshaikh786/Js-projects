@@ -65,3 +65,26 @@ y = z;
 
 console.log(x);
 console.log(y);
+
+
+// Spread Operator (Expand array and Object literals)
+// Array
+const array1 = [1, 2, 3, 4, 5]
+const array2 = [6, 7, 8, 9, 10]
+const myarray = [...array1, ...array2]
+console.log(myarray)
+
+// Object 
+const person = { name: "sam", age: "22" }
+const persond2 = { qualification: "Bcom" }
+const allDEtails = { ...person, ...persond2 }
+console.log(allDEtails);
+
+// Rest Operator (Function to get all the parameter or may be the rest of the parameter)
+function sum(...other) {
+    console.log(other)
+}
+sum(1, 2, 3, 4, 5, 6)
+
+
+

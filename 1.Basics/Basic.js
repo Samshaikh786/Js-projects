@@ -11,4 +11,4 @@ console.log(name);
 
 // if wants to deckare multiple variables
 let firstName = "Mosh", lastName = "Hamedani";
-// but in modern practice  variables should be de calre separately
+// but in modern practice  variables should be delare separately
